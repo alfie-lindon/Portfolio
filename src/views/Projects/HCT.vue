@@ -8,7 +8,7 @@
             </div>
     
             <div class="flex flex-col items-center">
-                <img src="@/assets/images/leapDemo_laptop.png " class="w-[500px] h-auto mx-auto">
+                <img src="@/assets/images/Leapdemo/leapDemo_laptop.png " class="w-[500px] h-auto mx-auto">
             </div>
         </div>
     
@@ -16,21 +16,21 @@
         <div class="p-3">
             <div class="flex flex-col md:flex-row justify-center items-center mt-6 space-y-4 md:space-y-0 md:space-x-8">
                 <div class="flex flex-col items-center justify-center w-full md:w-1/3 h-auto shadow-lg rounded-xl">
-                    <img src="@/assets/images/leapDemoHeader.png" class="w-full h-auto rounded-lg">
+                    <img src="@/assets/images/Leapdemo/leapDemoHeader.png" class="w-full h-auto rounded-lg">
                 </div>
 
                 <div class="flex flex-col items-center justify-center w-full md:w-1/3 h-auto shadow-lg rounded-xl">
-                    <img src="@/assets/images/leapDemoFooter.png" class="w-full h-auto rounded-lg">
+                    <img src="@/assets/images/Leapdemo/leapDemoFooter.png" class="w-full h-auto rounded-lg">
                 </div>
             </div>
 
             <div class="flex flex-col md:flex-row justify-center items-center mt-6 space-y-4 md:space-y-0 md:space-x-8">
                 <div class="flex flex-col items-center justify-center w-full md:w-1/3 h-auto shadow-lg rounded-xl">
-                    <img src="@/assets/images/leapDemoAbout.png" class="w-full h-auto rounded-lg">
+                    <img src="@/assets/images/Leapdemo/leapDemoAbout.png" class="w-full h-auto rounded-lg">
                 </div>
 
                 <div class="flex flex-col items-center justify-center w-full md:w-1/3 h-auto shadow-lg rounded-xl">
-                    <img src="@/assets/images/leapDemoAboutFooter.png" class="w-full h-auto rounded-lg">
+                    <img src="@/assets/images/Leapdemo/leapDemoAboutFooter.png" class="w-full h-auto rounded-lg">
                 </div>
             </div>
         </div>

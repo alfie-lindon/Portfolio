@@ -4,16 +4,16 @@
       <div class="flex justify-center">
         <!-- Social Media Icons -->
         <div class="flex space-x-4">
-          <a href="https://github.com/ALpinesss" class="text-customTxtOrange hover:text-gray-400 text-xl">
+          <a href="https://github.com/alfie-lindon" aria-label="GitHub Profile" class="text-customTxtOrange dark:text-customTxtYellow hover:text-gray-400 text-xl">
             <v-icon name="bi-github" scale="1.5" />
           </a>
-          <a href="https://www.linkedin.com/in/alfie-lindon-adrales-63395820b/" class="text-customTxtOrange hover:text-gray-400 text-xl">
+          <a href="https://www.linkedin.com/in/alfie-lindon-adrales-63395820b/" aria-label="LinkedIn Profile" class="text-customTxtOrange dark:text-customTxtYellow hover:text-gray-400 text-xl">
             <v-icon name="bi-linkedin" scale="1.5" />
           </a>
-          <a href="https://www.facebook.com/alfie.adrales/" class="text-customTxtOrange hover:text-gray-400 text-xl">
+          <a href="https://www.facebook.com/alfie.adrales/" aria-label="Facebook Profile" class="text-customTxtOrange dark:text-customTxtYellow hover:text-gray-400 text-xl">
             <v-icon name="bi-facebook" scale="1.5" />
           </a>
-          <a href="https://www.instagram.com/alfie.adrales?igsh=b25lZWNkaDJiZTB2" class="text-customTxtOrange hover:text-gray-400 text-xl">
+          <a href="https://www.instagram.com/alfie.adrales?igsh=b25lZWNkaDJiZTB2" aria-label="Instagram Profile" class="text-customTxtOrange dark:text-customTxtYellow hover:text-gray-400 text-xl">
             <v-icon name="ri-instagram-fill" scale="1.5" />
           </a>
         </div>

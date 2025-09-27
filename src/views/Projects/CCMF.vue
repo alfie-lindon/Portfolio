@@ -8,7 +8,7 @@
             </div>
     
             <div class="flex flex-col items-center">
-                <img src="@/assets/images/CCMF_tablet.png " class="w-[500px] h-auto mx-auto">
+                <img src="@/assets/images/CCMF/CCMF_tablet.png " class="w-[500px] h-auto mx-auto">
             </div>
         </div>
     
@@ -40,58 +40,58 @@
         <div class="p-3" v-if="isAdmin">
             <div class="flex flex-col md:flex-row justify-center items-center mt-6 space-y-4 md:space-y-0 md:space-x-8">
                 <div class="flex flex-col items-center justify-center w-full md:w-1/3 h-auto shadow-lg rounded-xl">
-                    <img src="@/assets/images/CCMF_AdminDash.png" class="w-full h-auto rounded-lg">
+                    <img src="@/assets/images/CCMF/CCMF_AdminDash.png" class="w-full h-auto rounded-lg">
                 </div>
     
                 <div class="flex flex-col items-center justify-center w-full md:w-1/3 h-auto shadow-lg rounded-xl">
-                    <img src="@/assets/images/CCMF_AdminScholar.png" class="w-full h-auto rounded-lg">
-                </div>
-            </div>
-    
-            <div class="flex flex-col md:flex-row justify-center items-center mt-6 space-y-4 md:space-y-0 md:space-x-8">
-                <div class="flex flex-col items-center justify-center w-full md:w-1/3 h-auto shadow-lg rounded-xl">
-                    <img src="@/assets/images/CCMF_AdminScholarApp.png" class="w-full h-auto rounded-lg">
-                </div>
-    
-                <div class="flex flex-col items-center justify-center w-full md:w-1/3 h-auto shadow-lg rounded-xl">
-                    <img src="@/assets/images/CCMF_AdminRenew.png" class="w-full h-auto rounded-lg">
+                    <img src="@/assets/images/CCMF/CCMF_AdminScholar.png" class="w-full h-auto rounded-lg">
                 </div>
             </div>
     
             <div class="flex flex-col md:flex-row justify-center items-center mt-6 space-y-4 md:space-y-0 md:space-x-8">
                 <div class="flex flex-col items-center justify-center w-full md:w-1/3 h-auto shadow-lg rounded-xl">
-                    <img src="@/assets/images/CCMF_AdminInt.png" class="w-full h-auto rounded-lg">
+                    <img src="@/assets/images/CCMF/CCMF_AdminScholarApp.png" class="w-full h-auto rounded-lg">
                 </div>
     
                 <div class="flex flex-col items-center justify-center w-full md:w-1/3 h-auto shadow-lg rounded-xl">
-                    <img src="@/assets/images/CCMF_AdminAnnounce.png" class="w-full h-auto rounded-lg">
+                    <img src="@/assets/images/CCMF/CCMF_AdminRenew.png" class="w-full h-auto rounded-lg">
+                </div>
+            </div>
+    
+            <div class="flex flex-col md:flex-row justify-center items-center mt-6 space-y-4 md:space-y-0 md:space-x-8">
+                <div class="flex flex-col items-center justify-center w-full md:w-1/3 h-auto shadow-lg rounded-xl">
+                    <img src="@/assets/images/CCMF/CCMF_AdminInt.png" class="w-full h-auto rounded-lg">
+                </div>
+    
+                <div class="flex flex-col items-center justify-center w-full md:w-1/3 h-auto shadow-lg rounded-xl">
+                    <img src="@/assets/images/CCMF/CCMF_AdminAnnounce.png" class="w-full h-auto rounded-lg">
                 </div>
             </div>
 
             <div class="flex flex-col md:flex-row justify-center items-center mt-6 space-y-4 md:space-y-0 md:space-x-8">
                 <div class="flex flex-col items-center justify-center w-full md:w-1/3 h-auto shadow-lg rounded-xl">
-                    <img src="@/assets/images/CCMF_AdminAccs.png" class="w-full h-auto rounded-lg">
+                    <img src="@/assets/images/CCMF/CCMF_AdminAccs.png" class="w-full h-auto rounded-lg">
                 </div>
     
                 <div class="flex flex-col items-center justify-center w-full md:w-1/3 h-auto shadow-lg rounded-xl">
-                    <img src="@/assets/images/CCMF_AdminLogs.png" class="w-full h-auto rounded-lg">
+                    <img src="@/assets/images/CCMF/CCMF_AdminLogs.png" class="w-full h-auto rounded-lg">
                 </div>
             </div>
         </div>
     
-        <div class="p-3" v-else="isAdmin">
+        <div class="p-3" v-else>
             <div class="flex flex-col md:flex-row justify-center items-center mt-6 space-y-4 md:space-y-0 md:space-x-8">
                 <div class="flex flex-col items-center justify-center w-full md:w-1/3 h-auto shadow-lg rounded-xl">
-                    <img src="@/assets/images/CCMF_Scholar.png" class="w-full h-auto rounded-lg">
+                    <img src="@/assets/images/CCMF/CCMF_Scholar.png" class="w-full h-auto rounded-lg">
                 </div>
     
                 <div class="flex flex-col items-center justify-center w-full md:w-1/3 h-auto shadow-lg rounded-xl">
-                    <img src="@/assets/images/CCMF_ScholarInfo.png" class="w-full h-auto rounded-lg">
+                    <img src="@/assets/images/CCMF/CCMF_ScholarInfo.png" class="w-full h-auto rounded-lg">
                 </div>
             </div>
 
             <div class="flex flex-col md:flex-row justify-center items-center mt-6 space-y-4 md:space-y-0 md:space-x-8">
-                <img src="@/assets/images/CCMF_ScholarFiles.png" class="w-[700px] h-auto rounded-lg">
+                <img src="@/assets/images/CCMF/CCMF_ScholarFiles.png" class="w-[700px] h-auto rounded-lg">
             </div>
         </div>
     </section>

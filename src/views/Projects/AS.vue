@@ -8,7 +8,7 @@
         </div>
 
         <div class="flex flex-col items-center">
-            <img src="@/assets/images/AS_computer.png " class="w-[350px] h-auto mx-auto">
+            <img src="@/assets/images/AS_ss/AS_computer.png " class="w-[350px] h-auto mx-auto">
         </div>
     </div>
 
@@ -69,7 +69,7 @@
         </div>
     </div>
 
-    <div class="p-3" v-else="isAdmin">
+    <div class="p-3" v-else>
         <div class="flex flex-col md:flex-row justify-center items-center mt-6 space-y-4 md:space-y-0 md:space-x-8">
             <div class="flex flex-col items-center justify-center w-full md:w-1/3 h-auto shadow-lg rounded-xl">
                 <img src="@/assets/images/AS_ss/UserDash.png" class="w-full h-auto rounded-lg">

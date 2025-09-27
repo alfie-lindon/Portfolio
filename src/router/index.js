@@ -1,18 +1,21 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '@/views/Home.vue'
-import AppSystem from '@/views/Projects/AS.vue'
-import Zyone from '@/views/Projects/Zyone.vue'
-import HCT from '@/views/Projects/HCT.vue'
-import CCMF from '@/views/Projects/CCMF.vue'
+
+const Home = () => import('@/views/Home.vue')
+const Erp = () => import('@/views/Projects/Erp.vue')
+const AppSystem = () => import('@/views/Projects/AS.vue')
+const Zyone = () => import('@/views/Projects/Zyone.vue')
+const HCT = () => import('@/views/Projects/HCT.vue')
+const CCMF = () => import('@/views/Projects/CCMF.vue')
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     { path: '/', name: 'Projects', component: Home},
-    { path: '/as', name: 'Appointment System', component: AppSystem},
+    { path: '/erp', name: 'ERPNext', component: Erp},
+    { path: '/appointment-system', name: 'Appointment System', component: AppSystem},
     { path: '/ccmf', name: 'CCMF', component: CCMF},
     { path: '/hct', name: 'HCT', component: HCT},
-    { path: '/zy', name: 'Zyone', component: Zyone},
+    { path: '/zyone', name: 'Zyone', component: Zyone},
   ],
   scrollBehavior(to, from, savedPosition) {
     if (to.hash) {

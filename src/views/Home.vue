@@ -36,7 +36,7 @@
     </div>
 
     <!-- Button that sticks to the right middle side of the screen -->
-    <button @click="toggleDrawer" class="fixed right-0 top-1/2 transform -translate-y-1/2 bg-customTxtOrange dark:bg-customTxtYellow text-white p-1 md:p-3 rounded-l-lg shadow-lg hover:bg-orange-500 dark:hover:bg-yellow-500 transition duration-300 z-50">
+    <button @click="toggleDrawer" aria-label="Email Drawer" class="fixed right-0 top-1/2 transform -translate-y-1/2 bg-customTxtOrange dark:bg-customTxtYellow text-white p-1 md:p-3 rounded-l-lg shadow-lg hover:bg-orange-500 dark:hover:bg-yellow-500 transition duration-300 z-50">
         <v-icon name="md-email-outlined" scale="2" animation="ring" fill="#50413C" />
     </button>
 

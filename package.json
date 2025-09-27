@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "fast-glob": "^3.3.2",
     "micromatch": "^4.0.7",
     "oh-vue-icons": "^1.0.0-rc3",

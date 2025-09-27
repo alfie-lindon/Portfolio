@@ -8,7 +8,7 @@
           </div>
   
           <div class="flex flex-col items-center">
-              <img src="@/assets/images/Zyone_computer.png " class="w-[350px] h-auto mx-auto">
+              <img src="@/assets/images/Zyone/Zyone_computer.png " class="w-[350px] h-auto mx-auto">
           </div>
       </div>
   
@@ -39,27 +39,27 @@
   
       <div class="flex justify-center p-3" v-if="isAdmin">
         <div class="flex flex-col items-center justify-center w-full md:w-1/3 h-auto shadow-lg rounded-xl">
-            <img src="@/assets/images/ZyoneAdmin.png" class="w-full h-auto rounded-lg">
+            <img src="@/assets/images/Zyone/ZyoneAdmin.png" class="w-full h-auto rounded-lg">
         </div>
       </div>
   
-      <div class="mt-5 p-3" v-else="isAdmin">
+      <div class="mt-5 p-3" v-else>
         <div class="flex flex-col md:flex-row justify-center items-center mt-6 space-y-4 md:space-y-0 md:space-x-8">
             <div class="flex flex-col items-center justify-center w-full md:w-1/3 h-auto shadow-lg rounded-xl">
-                <img src="@/assets/images/ZyoneIndex.png" class="w-full h-auto rounded-lg">
+                <img src="@/assets/images/Zyone/ZyoneIndex.png" class="w-full h-auto rounded-lg">
             </div>
 
             <div class="flex flex-col items-center justify-center w-full md:w-1/3 h-auto shadow-lg rounded-xl">
-                <img src="@/assets/images/ZyoneContact.png" class="w-full h-auto rounded-lg">
+                <img src="@/assets/images/Zyone/ZyoneContact.png" class="w-full h-auto rounded-lg">
             </div>
         </div>
         <div class="flex flex-col md:flex-row justify-center items-center mt-6 space-y-4 md:space-y-0 md:space-x-8">
             <div class="flex flex-col items-center justify-center w-full md:w-1/3 h-auto shadow-lg rounded-xl">
-                <img src="@/assets/images/ZyoneCart.png" class="w-full h-auto rounded-lg">
+                <img src="@/assets/images/Zyone/ZyoneCart.png" class="w-full h-auto rounded-lg">
             </div>
 
             <div class="flex flex-col items-center justify-center w-full md:w-1/3 h-auto shadow-lg rounded-xl">
-                <img src="@/assets/images/ZyoneLogin.png" class="w-full h-auto rounded-lg">
+                <img src="@/assets/images/Zyone/ZyoneLogin.png" class="w-full h-auto rounded-lg">
             </div>
         </div>
       </div>
