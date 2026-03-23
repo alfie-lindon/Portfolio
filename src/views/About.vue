@@ -11,13 +11,8 @@
 
             <div class="flex justify-center space-x-2 md:space-x-4 mt-3">
                 <div class="flex flex-col justify-center items-center cursor-pointer bg-customTxtYellow p-2 rounded-lg w-24 h-16 hover:animate-bounceOnce">
-                    <v-icon name="co-laravel" scale="1.5" fill="red" />
-                    <span class="text-red-500">Laravel</span>
-                </div>
-
-                <div class="flex flex-col justify-center items-center cursor-pointer bg-customTxtYellow p-2 rounded-lg w-24 h-16 hover:animate-bounceOnce">
-                    <v-icon name="vi-file-type-vue" scale="1.5" />
-                    <span class="text-green-500">Vue.js</span>
+                    <v-icon name="co-next-js" scale="1.5" />
+                    <span>Next.js</span>
                 </div>
 
                 <div class="flex flex-col justify-center items-center cursor-pointer bg-customTxtYellow p-2 rounded-lg w-24 h-16 hover:animate-bounceOnce">
@@ -26,8 +21,8 @@
                 </div>
 
                 <div class="flex flex-col justify-center items-center cursor-pointer bg-customTxtYellow p-2 rounded-lg w-24 h-16 hover:animate-bounceOnce">
-                    <v-icon name="vi-file-type-tailwind" scale="1.5"/>
-                    <span class="text-[#44A8B3]">Tailwind</span>
+                    <v-icon name="vi-file-type-typescript" scale="1.5" />
+                    <span class="text-blue-500">Typescript</span>
                 </div>
             </div>
         </div>
@@ -81,6 +76,11 @@
                     </div>
 
                     <div class="flex flex-col justify-center items-center cursor-pointer bg-customTxtYellow p-2 rounded-lg w-20 h-14 hover:animate-bounceOnce">
+                        <v-icon name="vi-file-type-tailwind" scale="1.3"/>
+                        <span class="text-[#44A8B3]">Tailwind</span>
+                    </div>
+
+                    <div class="flex flex-col justify-center items-center cursor-pointer bg-customTxtYellow p-2 rounded-lg w-20 h-14 hover:animate-bounceOnce">
                         <v-icon name="fa-bootstrap" scale="1.3" fill="purple" />
                         <span class="text-purple-500">Bootstrap</span>
                     </div>
@@ -91,8 +91,18 @@
                     </div>
 
                     <div class="flex flex-col justify-center items-center cursor-pointer bg-customTxtYellow p-2 rounded-lg w-20 h-14 hover:animate-bounceOnce">
+                        <v-icon name="vi-file-type-vue" scale="1.3" />
+                        <span class="text-green-500">Vue.js</span>
+                    </div>
+
+                    <div class="flex flex-col justify-center items-center cursor-pointer bg-customTxtYellow p-2 rounded-lg w-20 h-14 hover:animate-bounceOnce">
                         <v-icon name="vi-file-type-php" scale="2" />
                         <span class="text-[#6280B6]">PHP</span>
+                    </div>
+
+                    <div class="flex flex-col justify-center items-center cursor-pointer bg-customTxtYellow p-2 rounded-lg w-20 h-14 hover:animate-bounceOnce">
+                        <v-icon name="co-laravel" scale="1.5" fill="red" />
+                        <span class="text-red-500">Laravel</span>
                     </div>
 
                     <div class="flex flex-col justify-center items-center cursor-pointer bg-customTxtYellow p-2 rounded-lg w-20 h-14 hover:animate-bounceOnce">

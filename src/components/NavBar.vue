@@ -24,7 +24,7 @@
           <RouterLink to="/" class="relative hover:underline">Home</RouterLink>
           <RouterLink to="#about" class="relative hover:underline">About</RouterLink>
           <RouterLink to="#projects" class="relative hover:underline">Projects</RouterLink>
-          <RouterLink to="/Alfie_CV.pdf" target="_blank" class="hover:underline">Resume</RouterLink>
+          <RouterLink to="/Alfie_Adrales_CV.pdf" target="_blank" class="hover:underline">Resume</RouterLink>
         </div>
       </div>
 

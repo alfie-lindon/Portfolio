@@ -16,7 +16,7 @@ import { BiFileEarmarkPerson, FaRegularIdCard, ViFileTypeHtml,
         BiGithub, ViFileTypeLightQuasar, BiFacebook, BiArrowLeftCircle, 
         MdEmailOutlined, CoReact, CoUbuntu, CoCanva, FaFigma, ViFileTypePhotoshop, 
         SiAdobeillustrator, ViFileTypeVue, ViFileTypeNode, ViFileTypeTailwind, 
-        RiInstagramFill, BiXCircle, GiHamburgerMenu, ViFileTypePython } from 'oh-vue-icons/icons';
+        RiInstagramFill, BiXCircle, GiHamburgerMenu, ViFileTypePython, CoNextJs, ViFileTypeTypescript  } from 'oh-vue-icons/icons';
 
 addIcons(BiFileEarmarkPerson, FaRegularIdCard, ViFileTypeHtml, 
         ViFileTypeCss, FaBootstrap, BiLinkedin, FaUserFriends, 
@@ -25,5 +25,5 @@ addIcons(BiFileEarmarkPerson, FaRegularIdCard, ViFileTypeHtml,
         BiGithub, ViFileTypeLightQuasar, BiFacebook, BiArrowLeftCircle, 
         MdEmailOutlined, CoReact, CoUbuntu, CoCanva, FaFigma, ViFileTypePhotoshop, 
         SiAdobeillustrator, ViFileTypeVue, ViFileTypeNode,ViFileTypeTailwind, 
-        RiInstagramFill, BiXCircle, GiHamburgerMenu, ViFileTypePython);
+        RiInstagramFill, BiXCircle, GiHamburgerMenu, ViFileTypePython, CoNextJs, ViFileTypeTypescript );
 </script>

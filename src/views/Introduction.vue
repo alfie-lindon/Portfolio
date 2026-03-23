@@ -18,7 +18,7 @@
                 </div>
                 </a>
 
-                <a href="/Alfie_CV.pdf" target="_blank" class=" btn group flex items-center justify-start w-11 h-11 bg-customTxtOrange dark:bg-customTxtYellow rounded-full cursor-pointer relative overflow-hidden transition-all duration-200 shadow-lg hover:w-52 hover:rounded-lg active:translate-x-1 active:translate-y-1">
+                <a href="/Alfie_Adrales_CV.pdf" target="_blank" class=" btn group flex items-center justify-start w-11 h-11 bg-customTxtOrange dark:bg-customTxtYellow rounded-full cursor-pointer relative overflow-hidden transition-all duration-200 shadow-lg hover:w-52 hover:rounded-lg active:translate-x-1 active:translate-y-1">
                 <div class="flex items-center justify-center w-full transition-all duration-300 group-hover:justify-start group-hover:px-3">
                     <v-icon name="bi-file-earmark-person" scale="1.5" />
                 </div>
