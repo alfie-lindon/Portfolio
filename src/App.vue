@@ -11,7 +11,7 @@ import Footer from '@/components/Footer.vue';
 import { addIcons } from 'oh-vue-icons';
 import { BiFileEarmarkPerson, FaRegularIdCard, ViFileTypeHtml, 
         ViFileTypeCss, FaBootstrap, BiLinkedin, FaUserFriends, 
-        RiAdminFill, OiPaperAirplane, CoBuyMeACoffee,
+        RiAdminFill, OiPaperAirplane, CoBuyMeACoffee, BiDownload,
         CoJavascript, ViFileTypePhp, CoLaravel, ViFileTypeMysql, 
         BiGithub, ViFileTypeLightQuasar, BiFacebook, BiArrowLeftCircle, 
         MdEmailOutlined, CoReact, CoUbuntu, CoCanva, FaFigma, ViFileTypePhotoshop, 
@@ -20,7 +20,7 @@ import { BiFileEarmarkPerson, FaRegularIdCard, ViFileTypeHtml,
 
 addIcons(BiFileEarmarkPerson, FaRegularIdCard, ViFileTypeHtml, 
         ViFileTypeCss, FaBootstrap, BiLinkedin, FaUserFriends, 
-        RiAdminFill, OiPaperAirplane, CoBuyMeACoffee,
+        RiAdminFill, OiPaperAirplane, CoBuyMeACoffee, BiDownload,
         CoJavascript, ViFileTypePhp, CoLaravel, ViFileTypeMysql, 
         BiGithub, ViFileTypeLightQuasar, BiFacebook, BiArrowLeftCircle, 
         MdEmailOutlined, CoReact, CoUbuntu, CoCanva, FaFigma, ViFileTypePhotoshop, 

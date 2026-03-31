@@ -24,9 +24,13 @@
           <RouterLink to="/" class="relative hover:underline">Home</RouterLink>
           <RouterLink to="#about" class="relative hover:underline">About</RouterLink>
           <RouterLink to="#projects" class="relative hover:underline">Projects</RouterLink>
-          <RouterLink to="/Alfie_Adrales_CV.pdf" target="_blank" class="hover:underline">Resume</RouterLink>
+          <button @click="isResumeOpen = true" class="hover:underline">
+            Resume
+          </button>
         </div>
       </div>
+
+      <ResumeModal :isOpen="isResumeOpen" @close="isResumeOpen = false" />
 
       <!-- Dark Mode Toggle for Desktop View -->
 
@@ -49,7 +53,9 @@
         <a href="/" class="hover:underline">Home</a>
         <a href="#about" class="hover:underline">About</a>
         <a href="#projects" class="hover:underline">Projects</a>
-        <a href="/Adrales - CV.pdf" target="_blank" class="hover:underline">Resume</a>
+        <button @click="isResumeOpen = true" class="hover:underline">
+          Resume
+        </button>
       </div>
     </div>
   </div>
@@ -59,10 +65,12 @@
 
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue';
+import ResumeModal from './ResumeModal.vue';
 
 const darkMode = ref(false);
 const isOpen = ref(false);
 const isScrolled = ref(false);
+const isResumeOpen = ref(false);
 
 const toggleDarkMode = (event) => {
   darkMode.value = event.target.checked;
