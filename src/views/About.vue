@@ -8,23 +8,18 @@
             </p>
 
             <p class="mt-2 text-lg text-center text-customTxt dark:text-customBG">Current technologies that I've been learning recently:</p>
-
-            <div class="flex justify-center space-x-2 md:space-x-4 mt-3">
-                <div class="flex flex-col justify-center items-center cursor-pointer bg-customTxtYellow p-2 rounded-lg w-24 h-16 hover:animate-bounceOnce">
-                    <v-icon name="co-next-js" scale="1.5" />
-                    <span>Next.js</span>
-                </div>
-
-                <div class="flex flex-col justify-center items-center cursor-pointer bg-customTxtYellow p-2 rounded-lg w-24 h-16 hover:animate-bounceOnce">
-                    <v-icon name="co-react" scale="1.5"/>
-                    <span>React</span>
-                </div>
-
-                <div class="flex flex-col justify-center items-center cursor-pointer bg-customTxtYellow p-2 rounded-lg w-24 h-16 hover:animate-bounceOnce">
-                    <v-icon name="vi-file-type-typescript" scale="1.5" />
-                    <span class="text-blue-500">Typescript</span>
+            
+            <div class="flex flex-wrap justify-center items-center space-x-2 md:space-x-4 mt-3">
+                <div
+                    v-for="item in currentSubItem"
+                    :key="item.name"
+                    class="flex flex-col justify-center items-center cursor-pointer bg-customTxtYellow p-2 rounded-lg w-24 h-16 hover:animate-bounceOnce"
+                >
+                    <v-icon :name="item.icon" :scale="item.scale" />
+                    <span class="text-center">{{item.name}}</span>
                 </div>
             </div>
+            
         </div>
 
         <div class="flex flex-col items-center">
@@ -62,90 +57,15 @@
     </div>
 
     <div data-aos="fade-left" class="flex flex-col md:flex-row justify-center items-center mt-24 p-4 md:space-y-8 md:space-x-4">
-        <div class="flex justify-center space-x-4 md:w-[500px]">
-            
-            <div class="flex flex-wrap justify-center gap-4">
-                    <div class="flex flex-col justify-center items-center cursor-pointer bg-customTxtYellow p-2 rounded-lg w-20 h-14 hover:animate-bounceOnce">
-                        <v-icon name="vi-file-type-html" scale="1.3" />
-                        <span class="text-orange-500 text-sm">HTML</span>
-                    </div>
-
-                    <div class="flex flex-col justify-center items-center cursor-pointer bg-customTxtYellow p-2 rounded-lg w-20 h-14 hover:animate-bounceOnce">
-                        <v-icon name="vi-file-type-css" scale="1.3" />
-                        <span class="text-blue-500">CSS</span>
-                    </div>
-
-                    <div class="flex flex-col justify-center items-center cursor-pointer bg-customTxtYellow p-2 rounded-lg w-20 h-14 hover:animate-bounceOnce">
-                        <v-icon name="vi-file-type-tailwind" scale="1.3"/>
-                        <span class="text-[#44A8B3]">Tailwind</span>
-                    </div>
-
-                    <div class="flex flex-col justify-center items-center cursor-pointer bg-customTxtYellow p-2 rounded-lg w-20 h-14 hover:animate-bounceOnce">
-                        <v-icon name="fa-bootstrap" scale="1.3" fill="purple" />
-                        <span class="text-purple-500">Bootstrap</span>
-                    </div>
-
-                    <div class="flex flex-col justify-center items-center cursor-pointer bg-customTxtYellow p-2 rounded-lg w-20 h-14 hover:animate-bounceOnce">
-                        <v-icon name="co-javascript" scale="1.3" fill="yellow" />
-                        <span class="text-customTxt">JavaScript</span>
-                    </div>
-
-                    <div class="flex flex-col justify-center items-center cursor-pointer bg-customTxtYellow p-2 rounded-lg w-20 h-14 hover:animate-bounceOnce">
-                        <v-icon name="vi-file-type-vue" scale="1.3" />
-                        <span class="text-green-500">Vue.js</span>
-                    </div>
-
-                    <div class="flex flex-col justify-center items-center cursor-pointer bg-customTxtYellow p-2 rounded-lg w-20 h-14 hover:animate-bounceOnce">
-                        <v-icon name="vi-file-type-php" scale="2" />
-                        <span class="text-[#6280B6]">PHP</span>
-                    </div>
-
-                    <div class="flex flex-col justify-center items-center cursor-pointer bg-customTxtYellow p-2 rounded-lg w-20 h-14 hover:animate-bounceOnce">
-                        <v-icon name="co-laravel" scale="1.5" fill="red" />
-                        <span class="text-red-500">Laravel</span>
-                    </div>
-
-                    <div class="flex flex-col justify-center items-center cursor-pointer bg-customTxtYellow p-2 rounded-lg w-20 h-14 hover:animate-bounceOnce">
-                        <v-icon name="vi-file-type-mysql" scale="1.3" />
-                        <span class="text-[#10798D]">MySQL</span>
-                    </div>
-
-                    <div class="flex flex-col justify-center items-center cursor-pointer bg-customTxtYellow p-2 rounded-lg w-20 h-14 hover:animate-bounceOnce">
-                        <v-icon name="co-buy-me-a-coffee" scale="1.3" />
-                        <span class="text-customTxt">ERPNext</span>
-                    </div>
-
-                    <div class="flex flex-col justify-center items-center cursor-pointer bg-customTxtYellow p-2 rounded-lg w-20 h-14 hover:animate-bounceOnce">
-                        <v-icon name="co-ubuntu" scale="1.3" fill="orange"/>
-                        <span class="text-[#F79500]">Ubuntu</span>
-                    </div>
-
-                    <div class="flex flex-col justify-center items-center cursor-pointer bg-customTxtYellow p-2 rounded-lg w-20 h-14 hover:animate-bounceOnce">
-                        <v-icon name="bi-github" scale="1.3" />
-                        <span class="text-customTxt">Github</span>
-                    </div>
-
-                    <div class="flex flex-col justify-center items-center cursor-pointer bg-customTxtYellow p-2 rounded-lg w-20 h-14 hover:animate-bounceOnce">
-                        <v-icon name="co-canva" scale="1.3" fill="#03BFCE" />
-                        <span class="text-[#03BFCE]">Canva</span>
-                    </div>
-
-                    <div class="flex flex-col justify-center items-center cursor-pointer bg-customTxtYellow p-2 rounded-lg w-20 h-14 hover:animate-bounceOnce">
-                        <v-icon name="fa-figma" scale="1.3" />
-                        <span class="text-customTxt">Figma</span>
-                    </div>
-
-                    <div class="flex flex-col justify-center items-center cursor-pointer bg-customTxtYellow p-2 rounded-lg w-20 h-14 hover:animate-bounceOnce">
-                        <v-icon name="vi-file-type-photoshop" scale="1.3" />
-                        <span class="text-customTxt">Photoshop</span>
-                    </div>
-
-                    <div class="flex flex-col justify-center items-center cursor-pointer bg-customTxtYellow p-2 rounded-lg w-20 h-14 hover:animate-bounceOnce">
-                        <v-icon name="si-adobeillustrator" scale="1.3" fill="#F79500" />
-                        <span class="text-[#F79500]">Illustrator</span>
-                    </div>
+        <div class="flex flex-wrap justify-center gap-4 md:w-[500px]">
+            <div
+                v-for="item in existingSubItem"
+                :key="item.name"
+                class="flex flex-col justify-center items-center cursor-pointer bg-customTxtYellow p-2 rounded-lg w-20 h-14 hover:animate-bounceOnce"
+            >
+                <v-icon :name="item.icon" :scale="item.scale" :fill="item.fill" />
+                <span :style="{ color: item.color }" class="text-sm">{{ item.name }}</span>
             </div>
-
         </div>
 
         <div class="md:w-[500px] md:text-right mt-10">
@@ -161,6 +81,8 @@
 
 <script setup>
 import { onMounted } from 'vue';
+import { currentSubItem } from '@/boot/currentSkillsList';
+import { existingSubItem } from '@/boot/existingSkillsList';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
 

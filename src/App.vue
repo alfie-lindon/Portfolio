@@ -13,17 +13,17 @@ import { BiFileEarmarkPerson, FaRegularIdCard, ViFileTypeHtml,
         ViFileTypeCss, FaBootstrap, BiLinkedin, FaUserFriends, 
         RiAdminFill, OiPaperAirplane, CoBuyMeACoffee, BiDownload,
         CoJavascript, ViFileTypePhp, CoLaravel, ViFileTypeMysql, 
-        BiGithub, ViFileTypeLightQuasar, BiFacebook, BiArrowLeftCircle, 
+        BiGit, ViFileTypeLightQuasar, BiFacebook, BiArrowLeftCircle, 
         MdEmailOutlined, CoReact, CoUbuntu, CoCanva, FaFigma, ViFileTypePhotoshop, 
         SiAdobeillustrator, ViFileTypeVue, ViFileTypeNode, ViFileTypeTailwind, 
-        RiInstagramFill, BiXCircle, GiHamburgerMenu, ViFileTypePython, CoNextJs, ViFileTypeTypescript  } from 'oh-vue-icons/icons';
+        RiInstagramFill, BiXCircle, GiHamburgerMenu, ViFileTypePython, ViFileTypeTypescript  } from 'oh-vue-icons/icons';
 
 addIcons(BiFileEarmarkPerson, FaRegularIdCard, ViFileTypeHtml, 
         ViFileTypeCss, FaBootstrap, BiLinkedin, FaUserFriends, 
         RiAdminFill, OiPaperAirplane, CoBuyMeACoffee, BiDownload,
         CoJavascript, ViFileTypePhp, CoLaravel, ViFileTypeMysql, 
-        BiGithub, ViFileTypeLightQuasar, BiFacebook, BiArrowLeftCircle, 
+        BiGit, ViFileTypeLightQuasar, BiFacebook, BiArrowLeftCircle, 
         MdEmailOutlined, CoReact, CoUbuntu, CoCanva, FaFigma, ViFileTypePhotoshop, 
         SiAdobeillustrator, ViFileTypeVue, ViFileTypeNode,ViFileTypeTailwind, 
-        RiInstagramFill, BiXCircle, GiHamburgerMenu, ViFileTypePython, CoNextJs, ViFileTypeTypescript );
+        RiInstagramFill, BiXCircle, GiHamburgerMenu, ViFileTypePython, ViFileTypeTypescript );
 </script>
