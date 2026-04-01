@@ -30,8 +30,10 @@
                   flex justify-center items-center
                   relative">
                   <!-- Conditionally render the icon here -->
-                  <v-icon v-if="isAdmin" name="ri-admin-fill" scale="1.5" animation="ring"/>
-                  <v-icon v-else name="fa-user-friends" scale="1.5" />
+                  <v-icon 
+                        :name="isAdmin ? 'ri-admin-fill' : 'fa-user-friends'"
+                        scale="1.5" animation="ring"
+                    />
               </div>
           </label>
           <h1 class="text-lg text-customTxt dark:text-customBG font-bold mt-2">{{ userType }}</h1>
