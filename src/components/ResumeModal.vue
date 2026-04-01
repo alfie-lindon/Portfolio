@@ -22,12 +22,11 @@
           </div>
 
           <!-- PDF Viewer -->
-          <iframe
-            src="/Alfie_Adrales_CV.pdf#toolbar=0&navpanes=0&scrollbar=0&view=FitH"
-            class="flex-1 w-full"
-            type="application/pdf"
-          />
+          <div class="flex-1 w-full overflow-y-auto">
+            <VuePdfEmbed source="/Alfie_Adrales_CV.pdf" />
+          </div>
 
+          <!-- Footer -->
           <div class="flex justify-end px-5 py-2 border-t border-black">
             <a
               href="/Alfie_Adrales_CV.pdf"
@@ -46,6 +45,8 @@
 </template>
 
 <script setup>
+import VuePdfEmbed from 'vue-pdf-embed';
+
 defineProps({
   isOpen: Boolean 
 })
