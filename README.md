@@ -6,8 +6,6 @@ Personal portfolio website built with Vue 3 + Vite + Tailwind CSS.
 - Vue 3
 - Vite
 - Tailwind CSS
-- Floating Vue (tooltips)
-- Vue PDF Embed
 
 ## Project Setup
 npm install
