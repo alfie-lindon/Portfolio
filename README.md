@@ -1,29 +1,22 @@
-# portfolio
+# My Portfolio
 
-This template should help get you started developing with Vue 3 in Vite.
+Personal portfolio website built with Vue 3 + Vite + Tailwind CSS.
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Tech Stack
+- Vue 3
+- Vite
+- Tailwind CSS
+- Floating Vue (tooltips)
+- Vue PDF Embed
 
 ## Project Setup
-
-```sh
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+## Run Dev Server
 npm run dev
-```
 
-### Compile and Minify for Production
-
-```sh
+## Build for Production
 npm run build
-```
+
+## Live Site
+https://alfielindon.vercel.app/
