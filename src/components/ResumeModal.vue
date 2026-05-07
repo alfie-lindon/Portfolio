@@ -23,13 +23,13 @@
 
           <!-- PDF Viewer -->
           <div class="flex-1 w-full overflow-y-auto">
-            <VuePdfEmbed source="/Alfie_Adrales_CV.pdf" />
+            <VuePdfEmbed source="/Alfie Adrales CV.pdf" />
           </div>
 
           <!-- Footer -->
           <div class="flex justify-end px-5 py-2 border-t border-black">
             <a
-              href="/Alfie_Adrales_CV.pdf"
+              href="/Alfie Adrales CV.pdf"
               download
               class="bg-customTxtOrange p-2 rounded-lg text-white font-poppins "
               v-tooltip="'Download'"
